@@ -6,14 +6,14 @@ or verify estimates in analysis, demonstrating aspects of the halting problem
 through the undecidability of certain proof verification tasks.
 """
 
-from .halting_problem import HaltingProblemDemonstrator
-from .proof_environment import ProofEnvironment
-from .neural_prover import NeuralProver
 from .estimate_verifier import EstimateVerifier
+from .halting_problem import HaltingProblemDemonstrator
+from .neural_prover import NeuralProver
+from .proof_environment import ProofEnvironment
 
 __all__ = [
+    'EstimateVerifier',
     'HaltingProblemDemonstrator',
-    'ProofEnvironment', 
     'NeuralProver',
-    'EstimateVerifier'
+    'ProofEnvironment'
 ]
